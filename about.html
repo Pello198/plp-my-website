@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — MySite</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- header same as index (copy/paste for simplicity) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">MySite</a>
+      <nav class="nav" id="mainNav">
+        <button id="navToggle" aria-expanded="false" aria-controls="navList">Menu</button>
+        <ul id="navList" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h1>About Me</h1>
+    <p>I build accessible, responsive websites. Below are some highlights.</p>
+
+    <section class="timeline">
+      <div class="timeline-item">
+        <h4>2024</h4>
+        <p>Started building modern web projects and learning deployment.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>2025</h4>
+        <p>Delivered multiple multi-page websites and interactive UI.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> MySite</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
