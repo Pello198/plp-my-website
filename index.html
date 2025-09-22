@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MySite — Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">MySite</a>
+      <nav class="nav" id="mainNav">
+        <button id="navToggle" aria-expanded="false" aria-controls="navList">Menu</button>
+        <ul id="navList" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Bring your ideas to life</h1>
+        <p class="lead">Responsive websites, interactive UI, and delightful animations.</p>
+        <p><a class="btn" href="services.html">See Services</a> <a class="btn ghost" href="contact.html">Contact Me</a></p>
+      </div>
+    </section>
+
+    <section class="features container">
+      <article class="card">
+        <h3>Interactive UI</h3>
+        <p>Using CSS transitions and JS to create fluid interactions.</p>
+      </article>
+      <article class="card">
+        <h3>Responsive Design</h3>
+        <p>Mobile-first layouts that adapt across devices.</p>
+      </article>
+      <article class="card">
+        <h3>Deployed Live</h3>
+        <p>Easy deployment using GitHub Pages, Netlify, or Vercel.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> MySite — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
