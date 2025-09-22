@@ -9,5 +9,5 @@ A simple, responsive multi-page website demonstrating HTML5, CSS (transitions & 
 - `services.html` — Services / Interactive cards
 - `contact.html` — Contact form with client-side validation
 
-## How to run locally
-1. Clone repository:
+##live link
+https://pello198.github.io/plp-my-website
